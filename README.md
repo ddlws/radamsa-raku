@@ -3,13 +3,13 @@ radamsa
 
 Raku bindings for radamsa, a general purpose fuzzer https://gitlab.com/akihe/radamsa
 
-When you have to start fuzzing RIGHT NOW, radamsa is hard to beat. However, hidden under a mountain of parentheses in the radamsa git repo is real black magic, libradamsa, which is what this repo is all about. This is multithreaded fuzzing on easy mode, so get started.
+When you have to start fuzzing RIGHT NOW, radamsa is hard to beat. However, hidden under a mountain of parentheses in the radamsa git repo is real black magic, libradamsa, which is what these bindings are actually for. This is multithreaded fuzzing on easy mode.
 
 ### Installation
 
 > `zef install Radamsa`
 
-Radamsa source code is included but needs to be built. This requires a C compiler. It'll take a minute.
+The build fetches radamsa source from https://gitlab.com/akihe/radamsa and builds libradamsa.so. It'll take a minute.
 
 ### Using it
 
