@@ -9,7 +9,7 @@
     "Radamsa" : "lib/radamsa.pm6"
   },
   "resources": ["lib/libradamsa.so"],
-  "source-url": "https://github.com/ddlws/radamsa-raku",
+  "source-url": "https://github.com/ddlws/radamsa-raku.git",
   "tags": ["fuzz"],
   "version": "0.0.1"
 }
